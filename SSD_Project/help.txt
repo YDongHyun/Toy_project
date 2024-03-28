@@ -1,0 +1,25 @@
+-----------------------------------------------------
+                         Help
+-----------------------------------------------------
+write 3 0xAAAABBBB
+• Write 0xAAAABBBB to LBA 3.
+• Send the command to the SSD.
+read 3
+• Read LBA 3.
+• Send the command to the SSD.
+• Print the result written in result.txt on the screen.
+exit command
+• The shell is terminated.
+help command
+• Print the usage of each command.
+fullwrite command
+• Perform Write from LBA 0 to LBA 99.
+• The value is written to the entire SSD.
+• ex) fullwrite 0xABCDFFFF
+→ The value 0xABCDFFF is written to all LBAs.
+fullread command
+• Perform Read from LBA 0 to LBA 99.
+• Print all values of the SSD on the screen.
+• ex) fullread
+→ All values of all LBAs are printed on the screen.
+-----------------------------------------------------
